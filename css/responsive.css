@@ -3,10 +3,15 @@
         width: 98%;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
     .header_nav{
         display: none;
     }
+    .header_nav_phone{
+        display: block;
+    }
+}
+@media screen and (max-width: 800px){
     .footer_content{
         flex-direction: column;
         align-items: center;
@@ -89,6 +94,9 @@
     }
 }
 @media screen and (max-width: 500px){
+    .header_logo_all {
+        width: 22%;
+    }
     .section_home_title_heading{
         font-size: 22px;
     }
@@ -111,8 +119,14 @@
         flex-direction: column;
         margin-bottom: 40px;
     }
+    .section_home_dotnav{
+        margin-bottom: 35px;
+    }
 }
 @media screen and (max-width: 400px){
+    .section_home_title_heading{
+        font-size: 20px;
+    }
     .section_team_content{
         justify-content: center;
     }
